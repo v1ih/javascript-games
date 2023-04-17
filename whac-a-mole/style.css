@@ -1,0 +1,43 @@
+button {
+    border-radius: 5px;
+    background-color: rgb(84, 175, 211);
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    border-style: none;
+    box-shadow: 5px;
+}
+
+button:hover{
+    background-color: rgb(133, 186, 233);
+}
+
+.grid {
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 1px;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+}
+
+.mole {
+    background-image: url('mole.jpg');
+    background-size: cover;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
